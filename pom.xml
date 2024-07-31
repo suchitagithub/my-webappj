@@ -34,13 +34,13 @@
 	</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexus</id>
-		    <url>http://54.209.169.132:8081/repository/maven-snapshots/</url>
+		    <id>nexus_cred</id>
+		    <url>http://54.161.0.165:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexus</id>
-		    <url>http://54.209.169.132:8081/repository/maven-releases//</url>
+		    <id>nexus_cred</id>
+		    <url>http://54.161.0.165:8081/repository/maven-releases//</url>
 		</repository>
   	</distributionManagement>
 	
