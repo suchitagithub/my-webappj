@@ -34,12 +34,12 @@
 	</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexus_cred</id>
+		    <id>nexus</id>
 		    <url>http://ec2-54-226-138-183.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexus_cred</id>
+		    <id>nexus</id>
 		    <url>http://ec2-54-226-138-183.compute-1.amazonaws.com:8081/repository/maven-releases//</url>
 		</repository>
   	</distributionManagement>
@@ -49,10 +49,10 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version>
-	    <configuration>
-                <source>11</source> <!-- Or 8 if you're targeting Java 8 -->
-                <target>11</target> <!-- Or 8 if you're targeting Java 8 -->
+            <version>3.6.1</version>
+            <configuration>
+                <source>1.7</source>
+                <target>1.7</target>
             </configuration>
         </plugin>
 	<plugin>
